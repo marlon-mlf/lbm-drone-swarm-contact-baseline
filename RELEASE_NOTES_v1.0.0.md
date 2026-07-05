@@ -1,6 +1,6 @@
 # Release notes: v1.0.0
 
-This release candidate contains the code, configuration, processed source data, selected figure-source files, validation scripts, manuscript-support files, and compact sensitivity-audit outputs supporting the manuscript:
+This DOI-synchronized release contains the code, configuration, processed source data, selected figure-source files, validation scripts, manuscript-support files, and compact sensitivity-audit outputs supporting the manuscript:
 
 **Baseline contact-detection scaling in fluid-coupled periodic models of self-propelled drone-swarm proxies**
 
@@ -27,6 +27,8 @@ The checksum manifest is validated with:
 sha256sum -c checksums_sha256.txt
 ```
 
-## DOI workflow
+## DOI
 
-After uploading/tagging this release and receiving a Zenodo DOI, update `CITATION.cff`, the manuscript Data/Code Availability statements, and the cover letter with the minted DOI.
+Archived release DOI: https://doi.org/10.5281/zenodo.21211257.
+
+The DOI has been inserted into `CITATION.cff`, `README.md`, and the manuscript Data/Code Availability statements bundled in `manuscript_support/`.

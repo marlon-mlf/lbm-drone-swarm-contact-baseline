@@ -1,6 +1,6 @@
 # Reproducibility and release checklist
 
-## Included in this release candidate
+## Included in this DOI-synchronized release
 
 - [x] Production configuration is included at `config/production_config.json`.
 - [x] Processed source-data tables are included under `source_data/tables/`.

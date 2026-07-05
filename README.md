@@ -1,5 +1,8 @@
 # Scientific Reports LBM drone-swarm contact-detection package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21211257.svg)](https://doi.org/10.5281/zenodo.21211257)
+
+
 This archive contains the code, production configuration, selected source data, and
 reproducibility instructions for the manuscript:
 
@@ -62,9 +65,9 @@ The production workflow generates 320000 per-step observations (3200 stable simu
 
 ## Release metadata and licenses
 
-This package is prepared as a public GitHub/Zenodo release candidate. The source code is licensed under the MIT License in `LICENSE`. The processed source-data tables, selected figure-source files, supplementary table-source files, and validation outputs are licensed under CC BY 4.0 as described in `DATA_LICENSE.txt`.
+This package is archived as a public GitHub/Zenodo release at https://doi.org/10.5281/zenodo.21211257. The source code is licensed under the MIT License in `LICENSE`. The processed source-data tables, selected figure-source files, supplementary table-source files, and validation outputs are licensed under CC BY 4.0 as described in `DATA_LICENSE.txt`.
 
-The root-level `CITATION.cff` and `.zenodo.json` files contain release metadata without fake DOI placeholders. After Zenodo mints the release DOI, update `CITATION.cff` with the DOI and insert the DOI into the manuscript Data Availability and Code Availability statements before journal submission.
+The root-level `CITATION.cff` and `.zenodo.json` files contain the synchronized GitHub/Zenodo release metadata. Cite the archived release as https://doi.org/10.5281/zenodo.21211257.
 
 
 ## Installation
@@ -224,10 +227,10 @@ The submitted source-data package includes the generated Supplementary Table S12
 
 ## Manuscript-support files
 
-The `manuscript_support/` folder contains the synchronized manuscript-support files bundled with this release candidate:
+The `manuscript_support/` folder contains the synchronized manuscript-support files bundled with this DOI-synchronized release:
 
-- `main_scientific_reports_release_ready.pdf` and `.tex`: manuscript snapshot with local repository-release availability language and corrected author/bibliography metadata.
+- `main_scientific_reports_release_ready.pdf` and `.tex`: manuscript snapshot with Data/Code Availability citing the GitHub/Zenodo archive DOI https://doi.org/10.5281/zenodo.21211257.
 - `references_bibliography_fixed.bib` and `main_scientific_reports_release_ready.bbl`: bibliography sources used to compile the manuscript snapshot.
 - `Supplementary_Material_release_ready.pdf` and `.tex`: Supplementary Information synchronized with this archive, including Supplementary Table S11 inventory and Supplementary Table S12 compact sensitivity audit.
 
-The final journal-submission PDF should be regenerated after the Zenodo DOI is minted and inserted into the Data Availability and Code Availability statements.
+The bundled manuscript snapshot already cites the GitHub/Zenodo archive DOI: https://doi.org/10.5281/zenodo.21211257.

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or source-data package, please cite this repository release and the associated manuscript. After a Zenodo DOI is minted, update this citation file with the DOI of the archived release."
+message: "If you use this software or source-data package, please cite the archived GitHub/Zenodo release and the associated manuscript."
 title: "Code and source data for baseline contact-detection scaling in fluid-coupled drone-swarm proxy simulations"
 authors:
   - family-names: Chagas
@@ -13,6 +13,9 @@ authors:
 version: 1.0.0
 date-released: 2026-07-05
 license: MIT
+repository-code: "https://github.com/marlon-mlf/lbm-drone-swarm-contact-baseline"
+doi: "10.5281/zenodo.21211257"
+url: "https://doi.org/10.5281/zenodo.21211257"
 keywords:
   - lattice Boltzmann method
   - drone swarms

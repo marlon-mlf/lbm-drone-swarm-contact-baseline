@@ -28,5 +28,5 @@
     "Scientific Reports"
   ],
   "language": "eng",
-  "notes": "The root-level DATA_LICENSE.txt file specifies the CC BY 4.0 license for source-data files. The Zenodo DOI minted from this release should be inserted into the manuscript Data Availability and Code Availability statements before journal submission."
+  "notes": "This GitHub/Zenodo release is archived at https://doi.org/10.5281/zenodo.21211257. The root-level DATA_LICENSE.txt file specifies the CC BY 4.0 license for source-data files."
 }

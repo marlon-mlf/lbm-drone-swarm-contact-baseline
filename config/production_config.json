@@ -31,5 +31,5 @@
     "raw_repeated_contact_detections",
     "deduplicated_unique_contact_events"
   ],
-  "notes": "This configuration corresponds to the audited production protocol described in the manuscript. The source-data release contains processed tables and validation scripts; the final journal manuscript should cite the Zenodo DOI minted for this archive."
+  "notes": "This configuration corresponds to the audited production protocol described in the manuscript. The source-data release contains processed tables and validation scripts and is archived at https://doi.org/10.5281/zenodo.21211257."
 }
