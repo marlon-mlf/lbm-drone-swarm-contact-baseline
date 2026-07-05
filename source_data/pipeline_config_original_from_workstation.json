@@ -1,0 +1,27 @@
+{
+  "sim_script": null,
+  "run_simulations": false,
+  "runs": 10,
+  "steps": 100,
+  "grids": [
+    "100,100,100",
+    "130,130,130"
+  ],
+  "rhos": [
+    1.0,
+    1.8,
+    2.93,
+    4.55
+  ],
+  "agents": [
+    30,
+    40,
+    50,
+    60
+  ],
+  "force_scheme": "nearest",
+  "agent_radius": 5.0,
+  "agent_mass": 25.0,
+  "v0_max": 0.2,
+  "max_attempts_factor": 5
+}

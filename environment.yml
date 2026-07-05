@@ -1,0 +1,13 @@
+name: scirep-lbm-swarm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - scipy
+  - numba
+  - matplotlib
+  - tqdm
+  - statsmodels
+  - pip

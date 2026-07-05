@@ -1,0 +1,35 @@
+{
+  "study": "Baseline contact-detection scaling in fluid-coupled periodic models of self-propelled drone-swarm proxies",
+  "sim_script": "src/lbm_swarm_contact_simulator.py",
+  "analysis_script": "src/scirep_generate_tables_figures.py",
+  "run_simulations": true,
+  "runs": 100,
+  "steps": 100,
+  "grids": [
+    "100,100,100",
+    "130,130,130"
+  ],
+  "rhos": [
+    1.0,
+    1.8,
+    2.93,
+    4.55
+  ],
+  "agents": [
+    30,
+    40,
+    50,
+    60
+  ],
+  "force_scheme": "nearest",
+  "agent_radius": 5.0,
+  "agent_mass": 25.0,
+  "v0_max": 0.2,
+  "max_attempts_factor": 5,
+  "rho_threshold": 20.0,
+  "contact_metrics": [
+    "raw_repeated_contact_detections",
+    "deduplicated_unique_contact_events"
+  ],
+  "notes": "This configuration corresponds to the audited production protocol described in the manuscript. The source-data release contains processed tables and validation scripts; the final journal manuscript should cite the Zenodo DOI minted for this archive."
+}

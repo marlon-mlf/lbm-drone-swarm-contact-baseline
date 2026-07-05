@@ -1,0 +1,11 @@
+Data license
+============
+
+Unless otherwise noted, the source-data tables, selected figure-source files, supplementary table-source files, and validation outputs in this release are made available under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Attribution should cite this repository release and the associated manuscript:
+"Baseline contact-detection scaling in fluid-coupled periodic models of self-propelled drone-swarm proxies".
+
+The executable source code is licensed separately under the MIT License in the root-level LICENSE file.

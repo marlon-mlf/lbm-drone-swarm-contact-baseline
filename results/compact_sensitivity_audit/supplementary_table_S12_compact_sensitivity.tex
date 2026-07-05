@@ -1,0 +1,12 @@
+\begin{tabular}{llllrlllrrrlllllllllllll}
+\toprule
+sensitivity\_factor & variant & grid & rho0 & n\_agents & force\_scheme & agent\_mass & max\_vel & attempts & stable\_attempts & unstable\_attempts & stability\_fraction & mean\_raw\_detections\_stable & mean\_unique\_events\_stable & max\_rho\_observed\_all\_attempts & max\_agent\_speed\_pre\_clamp\_all\_attempts & mean\_agent\_clamp\_activation\_frequency\_stable & stop\_reasons & diagnostic\_interpretation & max\_u\_observed\_all\_attempts & agent\_radius & v0\_max & rho\_threshold & tau\_bgk \\
+\midrule
+clamp & m25\_nearest\_vmax0p8 & 100x100x100 & 4.55 & 60 & nearest & 25 & 0.8 & 20 & 20 & 0 & 1 & 12.35 & 10.8 & 5.792 & 4.592 & 0.0008083 & completed: 20 & stable under matched-attempt sensitivity audit & 0.6851 & 5 & 0.2 & 20 & 0.6 \\
+clamp & m25\_nearest\_vmax1p2 & 100x100x100 & 4.55 & 60 & nearest & 25 & 1.2 & 20 & 19 & 1 & 0.95 & 12.58 & 10.95 & 21.08 & 46.37 & 0 & completed: 19; rho\_threshold\_exceeded\_at\_step\_8: 1 & partially stable; report as limitation & 1.2 & 5 & 0.2 & 20 & 0.6 \\
+forcing & m25\_trilinear\_vmax1p0 & 100x100x100 & 4.55 & 60 & trilinear & 25 & 1 & 20 & 20 & 0 & 1 & 12.35 & 10.8 & 5.369 & 5.879 & 0.0008083 & completed: 20 & stable under matched-attempt sensitivity audit & 0.5073 & 5 & 0.2 & 20 & 0.6 \\
+mass & m23\_nearest\_vmax1p0 & 100x100x100 & 4.55 & 60 & nearest & 23 & 1 & 20 & 19 & 1 & 0.95 & 13.58 & 11.58 & 20.51 & 63.3 & 0.005132 & completed: 19; rho\_threshold\_exceeded\_at\_step\_88: 1 & partially stable; report as limitation & 1 & 5 & 0.2 & 20 & 0.6 \\
+mass & m30\_nearest\_vmax1p0 & 100x100x100 & 4.55 & 60 & nearest & 30 & 1 & 20 & 20 & 0 & 1 & 12.7 & 11.55 & 4.608 & 0.2133 & 0 & completed: 20 & stable under matched-attempt sensitivity audit & 0.05951 & 5 & 0.2 & 20 & 0.6 \\
+production & reference\_m25\_nearest\_vmax1p0 & 100x100x100 & 4.55 & 60 & nearest & 25 & 1 & 20 & 20 & 0 & 1 & 12.35 & 10.8 & 7.727 & 11.04 & 0.0008083 & completed: 20 & stable under matched-attempt sensitivity audit & 0.8715 & 5 & 0.2 & 20 & 0.6 \\
+\bottomrule
+\end{tabular}

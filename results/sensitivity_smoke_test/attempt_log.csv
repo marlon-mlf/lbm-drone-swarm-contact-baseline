@@ -1,0 +1,2 @@
+nx,ny,nz,rho0,n_agents,steps_requested,steps_completed,seed,force_scheme,stable,stop_reason,raw_contact_detections,unique_contact_events,final_active_contacts,max_rho_observed,max_u_observed,max_agent_speed_pre_clamp_observed,agent_clamp_activation_count,agent_clamp_checks,agent_clamp_activation_frequency
+24,24,24,1.0,2,3,3,42,nearest,True,completed,0,0,0,1.0210010690510414,0.06785688993606653,0.4640398875643075,0,6,0.0

@@ -1,0 +1,19 @@
+{
+  "nx": 100,
+  "ny": 100,
+  "nz": 100,
+  "rho0": 4.55,
+  "stable_runs": 20,
+  "n_agents": 60,
+  "steps": 100,
+  "seed": 20260705,
+  "force_scheme": "nearest",
+  "agent_radius": 5.0,
+  "agent_mass": 25.0,
+  "v0_max": 0.2,
+  "rho_threshold": 20.0,
+  "max_vel": 0.8,
+  "tau_bgk": 0.6,
+  "analysis_outputs_written": false,
+  "plots_written": false
+}

@@ -1,0 +1,102 @@
+% Supplementary data inventory table synchronized with the release package.
+% Paths are relative to the archive root scirep_lbm_swarm_submission_package/.
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{0.40\linewidth}>{\RaggedRight\arraybackslash}p{0.55\linewidth}@{}}
+\caption{Supplementary data and reproducibility inventory. Paths are relative to the archive root \texttt{scirep\_lbm\_swarm\_submission\_package/} and are synchronized with the GitHub/Zenodo release candidate.}\label{stab:source-data-inventory}\\
+\toprule
+File or folder in archive & Purpose \\
+\midrule
+\endfirsthead
+\toprule
+File or folder in archive & Purpose \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\begin{tabular}[t]{@{}l@{}}\texttt{config/}\\\texttt{production\_config.json}\end{tabular}
+& Final production configuration: grids, density parameters, agent counts, 100 stable runs per condition, $r_i=5.0$, $m_i=25.0$, nearest-node forcing, and $v_{0,\max}=0.2$. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{master\_attempt\_log.csv}\end{tabular}
+& Per-attempt stability status, seed, stopping reason, raw detections, unique events, final active contacts, maximum density, and maximum velocity. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_condition\_summary}\\\texttt{\_raw\_unique\_stability.csv}\end{tabular}
+& Processed condition-level summary used to build endpoint, raw/unique contact, and stability tables reported in the manuscript and Supplementary Information. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_stability}\\\texttt{\_audit\_table.csv}\end{tabular}
+& Compact stability audit table aggregating stable runs, unstable attempts, maximum density, and maximum velocity by grid and density parameter. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_time\_series\_summary}\\\texttt{\_by\_condition\_step.csv}\end{tabular}
+& Processed time-series summaries by condition and step for contact accumulation, active-contact, maximum-density, and stability curves. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_run\_level}\\\texttt{\_transient\_metrics.csv}\end{tabular}
+& Run-level transient metrics derived from per-step histories. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_transient}\\\texttt{\_metrics\_summary.csv/.tex}\end{tabular}
+& Summary of transient metrics used for supplementary reporting and audit checks. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{count\_model\_coefficients.csv}\\\texttt{count\_model\_status.txt}\end{tabular}
+& Exploratory count-model coefficients and status notes. These files are included for auditability only and are not used as central statistical evidence. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/tables/}\\\texttt{scirep\_quadratic\_fit\_table}\\\texttt{\_raw\_detections.tex}\\\texttt{scirep\_quadratic\_fit\_table}\\\texttt{\_unique\_events.tex}\end{tabular}
+& Descriptive quadratic-fit source tables used for supplementary trend summaries. \\
+\addlinespace[0.35em]
+
+\texttt{source\_data/figures/}
+& Selected PDF figure-source files corresponding to the main-manuscript visual results. \\
+\addlinespace[0.35em]
+
+\texttt{source\_data/supplementary\_figures/}
+& Selected PDF figure-source files corresponding to Supplementary Figs. S1--S8. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/supplementary\_tables/}\\\texttt{supplementary\_table\_S12}\\\texttt{\_compact\_sensitivity.csv/.tex}\end{tabular}
+& Compact matched-seed sensitivity audit around proxy mass, force-spreading rule, and velocity-clamp scale. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{source\_data/supplementary\_tables/}\\\texttt{compact\_sensitivity\_attempt\_logs/}\end{tabular}
+& Per-variant attempt logs for the compact sensitivity audit. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{src/}\\\texttt{lbm\_swarm\_contact\_simulator.py}\end{tabular}
+& Main simulation script producing raw repeated detections, de-duplicated unique contact events, stability logs, per-run summaries, and per-step time-series outputs. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{src/}\\\texttt{lbm\_swarm\_contact\_simulator}\\\texttt{\_sensitivity.py}\end{tabular}
+& Compact-sensitivity simulator variant with pre-clamp speed and clamp-activation diagnostics. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{src/}\\\texttt{scirep\_generate\_tables\_figures.py}\end{tabular}
+& Analysis and plotting script used to generate manuscript tables, supplementary tables, figures, and processed source-data summaries from completed simulation outputs. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{src/}\\\texttt{validate\_submitted\_source\_data.py}\end{tabular}
+& Validator for the compact source-data files included in this release. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{scripts/}\\\texttt{00\_create\_environment.sh}\\\texttt{...}\\\texttt{07\_make\_checksums.sh}\end{tabular}
+& Reproduction helper scripts for environment creation, smoke tests, mass screening, design checks, production reruns, validation, analysis, and checksum generation. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{manuscript\_support/}\\\texttt{main\_scientific\_reports}\\\texttt{\_release\_ready.pdf/.tex}\end{tabular}
+& Manuscript-support snapshot bundled with this release candidate. The final journal-submission version should cite the Zenodo DOI after the DOI is minted. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{manuscript\_support/}\\\texttt{Supplementary\_Material}\\\texttt{\_release\_ready.pdf/.tex}\end{tabular}
+& Supplementary Information synchronized with this release package, including this inventory and Supplementary Table S12. \\
+\addlinespace[0.35em]
+
+\begin{tabular}[t]{@{}l@{}}\texttt{README.md}, \texttt{requirements.txt},\\\texttt{environment.yml}, \texttt{CITATION.cff},\\\texttt{.zenodo.json}, \texttt{LICENSE},\\\texttt{DATA\_LICENSE.txt}, \texttt{MANIFEST.tsv},\\\texttt{checksums\_sha256.txt}\end{tabular}
+& Repository-level instructions, software environment files, citation and Zenodo metadata, license files, file manifest, and checksum manifest. \\
+
+\end{longtable}
+}

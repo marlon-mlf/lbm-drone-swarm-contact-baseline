@@ -1,0 +1,32 @@
+{
+  "title": "Code and source data for baseline contact-detection scaling in fluid-coupled drone-swarm proxy simulations",
+  "upload_type": "software",
+  "description": "Code, source data, validation scripts, configuration files, selected figure sources, manuscript-support files, and compact sensitivity outputs supporting the manuscript 'Baseline contact-detection scaling in fluid-coupled periodic models of self-propelled drone-swarm proxies'. The software is released under the MIT License and the source data are released under CC BY 4.0 unless otherwise noted.",
+  "creators": [
+    {
+      "name": "Chagas, Fabio Suim"
+    },
+    {
+      "name": "López-Flores, Marlon M."
+    },
+    {
+      "name": "Botelho, Wagner Tanaka"
+    },
+    {
+      "name": "Ferreira Rosa, Paulo Fernando"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "keywords": [
+    "lattice Boltzmann method",
+    "drone swarms",
+    "contact detection",
+    "computational reproducibility",
+    "source data",
+    "Scientific Reports"
+  ],
+  "language": "eng",
+  "notes": "The root-level DATA_LICENSE.txt file specifies the CC BY 4.0 license for source-data files. The Zenodo DOI minted from this release should be inserted into the manuscript Data Availability and Code Availability statements before journal submission."
+}

@@ -1,0 +1,2 @@
+raw: Poisson overdispersion ratio = 2.16; negative-binomial coefficients are provided as sensitivity summaries.
+unique: Poisson overdispersion ratio = 1.15; negative-binomial coefficients are provided as sensitivity summaries.
